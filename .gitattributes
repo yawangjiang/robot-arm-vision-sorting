@@ -1,0 +1,9 @@
+# Preserve the bytes of the imported firmware and original document/CAD assets.
+* -text
+/firmware/** -whitespace
+*.STEP binary
+*.docx binary
+/README.md text eol=lf
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
+/docs/source-manifest.json text eol=lf

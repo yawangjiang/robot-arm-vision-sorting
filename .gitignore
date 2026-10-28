@@ -1,0 +1,57 @@
+# Keil build output and local IDE state
+firmware/MDK-ARM/4.3.2/
+Objects/
+Listings/
+DebugConfig/
+/firmware/MDK-ARM/RTE/
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.uvgui.*
+*.dbgconf
+*.scvd
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.build_log.htm
+JLinkLog.txt
+JLinkSettings.ini
+*.bak
+*.Bak
+*.tmp
+*.log
+
+# Generated workspaces and caches
+build/
+install/
+log/
+__pycache__/
+.pytest_cache/
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*known_hosts*
+
+# Keep the unredacted report out of the public repository.
+/docs/*--改.docx
